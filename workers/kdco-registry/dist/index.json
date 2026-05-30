@@ -1,0 +1,95 @@
+{
+  "$schema": "https://ocx.kdco.dev/schemas/v2/registry.json",
+  "name": "KDCO",
+  "version": "1.0.0",
+  "author": "kdcokenny",
+  "opencode": "1.1.0",
+  "ocx": "1.0.16",
+  "components": [
+    {
+      "name": "kdco-primitives",
+      "type": "plugin",
+      "description": "Shared utility primitives for KDCO plugins"
+    },
+    {
+      "name": "workspace-plugin",
+      "type": "plugin",
+      "description": "Plan management and rule injection for workspace workflows"
+    },
+    {
+      "name": "background-agents",
+      "type": "plugin",
+      "description": "Background agent execution - run async tasks while you work"
+    },
+    {
+      "name": "notify",
+      "type": "plugin",
+      "description": "Native OS notifications - get notified when tasks complete"
+    },
+    {
+      "name": "worktree",
+      "type": "plugin",
+      "description": "Auto-manages Git worktrees for isolated AI sessions with seamless terminal spawning"
+    },
+    {
+      "name": "plan-protocol",
+      "type": "skill",
+      "description": "Guidelines for using the plan system"
+    },
+    {
+      "name": "code-philosophy",
+      "type": "skill",
+      "description": "The 5 Laws of Elegant Defense"
+    },
+    {
+      "name": "frontend-philosophy",
+      "type": "skill",
+      "description": "The 5 Pillars of Intentional UI"
+    },
+    {
+      "name": "code-review",
+      "type": "skill",
+      "description": "Structured code review methodology with severity levels and categories"
+    },
+    {
+      "name": "plan-review",
+      "type": "skill",
+      "description": "Criteria for reviewing implementation plans"
+    },
+    {
+      "name": "researcher",
+      "type": "agent",
+      "description": "Knowledge architect for external research"
+    },
+    {
+      "name": "scribe",
+      "type": "agent",
+      "description": "Human-facing content specialist"
+    },
+    {
+      "name": "coder",
+      "type": "agent",
+      "description": "Technical implementation specialist for writing and modifying code"
+    },
+    {
+      "name": "reviewer",
+      "type": "agent",
+      "description": "Code review specialist that analyzes code for issues and improvements"
+    },
+    {
+      "name": "review",
+      "type": "command",
+      "description": "Trigger code review on files or git diffs"
+    },
+    {
+      "name": "workspace",
+      "type": "bundle",
+      "description": "Full KDCO Workspace experience"
+    },
+    {
+      "name": "philosophy",
+      "type": "bundle",
+      "description": "Full KDCO Philosophy enforcement"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "scribe",
+  "versions": {
+    "1.0.0": {
+      "name": "scribe",
+      "type": "agent",
+      "description": "Human-facing content specialist",
+      "files": [
+        "agents/scribe.md"
+      ],
+      "dependencies": [],
+      "opencode": {
+        "agent": {
+          "scribe": {
+            "permission": {
+              "bash": {
+                "*": "deny"
+              },
+              "edit": "allow",
+              "glob": "allow",
+              "read": "allow",
+              "write": "allow",
+              "plan_read": "deny",
+              "todoread": "deny"
+            }
+          }
+        }
+      }
+    }
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  }
+}

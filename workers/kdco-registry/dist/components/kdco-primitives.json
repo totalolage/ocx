@@ -1,0 +1,26 @@
+{
+  "name": "kdco-primitives",
+  "versions": {
+    "1.0.0": {
+      "name": "kdco-primitives",
+      "type": "plugin",
+      "description": "Shared utility primitives for KDCO plugins",
+      "files": [
+        "plugins/kdco-primitives/get-project-id.ts",
+        "plugins/kdco-primitives/with-timeout.ts",
+        "plugins/kdco-primitives/log-warn.ts",
+        "plugins/kdco-primitives/types.ts",
+        "plugins/kdco-primitives/mutex.ts",
+        "plugins/kdco-primitives/shell.ts",
+        "plugins/kdco-primitives/temp.ts",
+        "plugins/kdco-primitives/cmux.ts",
+        "plugins/kdco-primitives/terminal-detect.ts",
+        "plugins/kdco-primitives/index.ts"
+      ],
+      "dependencies": []
+    }
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  }
+}

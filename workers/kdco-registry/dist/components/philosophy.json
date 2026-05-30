@@ -1,0 +1,25 @@
+{
+  "name": "philosophy",
+  "versions": {
+    "1.0.0": {
+      "name": "philosophy",
+      "type": "bundle",
+      "description": "Full KDCO Philosophy enforcement",
+      "files": [
+        "tools/philosophy.md"
+      ],
+      "dependencies": [
+        "code-philosophy",
+        "frontend-philosophy"
+      ],
+      "opencode": {
+        "instructions": [
+          "./tools/philosophy.md"
+        ]
+      }
+    }
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "review",
+  "versions": {
+    "1.0.0": {
+      "name": "review",
+      "type": "command",
+      "description": "Trigger code review on files or git diffs",
+      "files": [
+        "commands/review.md"
+      ],
+      "dependencies": [
+        "reviewer"
+      ]
+    }
+  },
+  "dist-tags": {
+    "latest": "1.0.0"
+  }
+}
